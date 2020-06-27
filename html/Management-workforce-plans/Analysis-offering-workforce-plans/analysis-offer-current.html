@@ -1,0 +1,471 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" name="viewport">
+
+        <!--begin::Fonts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
+
+        <!-- Bootstrap CSS -->
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+
+        <!-- AwsomeFont CSS -->
+        <link href="../../css/all.css" rel="stylesheet">
+
+        <!--Custom CSS -->
+        <link href="../../css/custom.css" rel="stylesheet">
+        <link href="../../css/jquery.dataTables.css" rel="stylesheet">
+        <link href="../../css/datatables.css" rel="stylesheet">
+
+       
+    </head>
+
+<body>
+
+<div class="wrapper">
+    <header class="justify-content-between">
+        <div class="mol_logo">
+            <button aria-label="toggle aside menu" class="toggleMenu hamburger hamburger-squeeze mr-2" data-toggle="aside-menu"
+                    type="button"><span class="hamburger-box"><span
+                    class="hamburger-inner"></span></span></button>
+            <img alt="" src="../../images/logo-w-w.png"/>
+            <div class="drawer full-menu">
+                <button class="toggleMenu menu-close"></button>
+                <div class="menu-content">
+                    <div class="row dashboard-list">
+                        <div class="col-lg-3">
+                            <a class="dashboard-item" href="../Services-settings/services-list.html">
+                                <i class="icon-service-settings"></i>
+                                <h3>اعدادات الخدمة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item" href="../Services-config/services-variables.html">
+                                <i class="icon-service-setup"></i>
+                                <h3>تهيئة الخدمة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item" href="../Managing-workforce-plans/manag-workforce-plans.html">
+                                <i class="icon-service-meeting"></i>
+                                <h3>إدارة خطط القوي العاملة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item" href="../Workforce-plans/workforce-plans.html">
+                                <i class="icon-service-brain"></i>
+                                <h3>خطط القوى العاملة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="../Inputs-workforce-plans/input-admin-structure.html">
+                                <i class="icon-service-status"></i>
+                                <h3>مدخلات تخطيط القوى العاملة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="../Analysis-offering-workforce-plans/analysis-offer.html">
+                                <i class="icon-service-presentation"></i>
+                                <h3>تحليل عرض القوى العاملة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="../Analysis-demand-workforce-plans/analysis-demand.html">
+                                <i class="icon-service-analysis"></i>
+                                <h3>تحليل طلب القوى العاملة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="../RA-workforce-demand/reviwe-workforce-demand.html">
+                                <i class="icon-service-review"></i>
+                                <h3>مراجعة واعتماد طلب القوى العاملة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="../Analysis-workforce-gabs/analysis-gabs.html">
+                                <i class="icon-service-idea"></i>
+                                <h3>تحليل فجوات القوى العاملة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="../RA-workforce-plans/review-workforce-plan.html">
+                                <i class="icon-service-planning"></i>
+                                <h3>مراجعة واعتماد خطط القوى العاملة</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="#">
+                                <i class="icon-service-budget"></i>
+                                <h3>الربط مع وزارة المالية</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="#">
+                                <i class="icon-service-invoice"></i>
+                                <h3>مراجعة واعتماد وزراة المالية</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a class="dashboard-item"  href="../Follow-workforce-plans/follow-workforce-plan.html">
+                                <i class="icon-service-followup"></i>
+                                <h3>متابعة خطط القوى العاملة</h3>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="headerIcons">
+            <div class="align-self-stretch align-items-center userIcon">
+                <div class="dropdown">
+                    <button aria-expanded="false" aria-haspopup="true" class="btn dropdown-toggle" data-toggle="dropdown"
+                            id="dropdownMenuButton" type="button">
+                        <img src="../../images/userPic.png"/>
+                    </button>
+                    <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action1</a>
+                        <a class="dropdown-item" href="#">Action2</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="align-self-stretch align-items-center notifyIcon">
+                <a href="#">
+                    <i class="far fa-bell"></i>
+                    <span class="count">10</span>
+                </a>
+            </div>
+            <div class="align-self-stretch align-items-center infoIcon">
+                <a href="#"><i class="far fa-question-circle"></i></a>
+            </div>
+            <div class="align-self-stretch align-items-center homeIcon">
+                <a href="../home.html"><i class="fas fa-home"></i></a>
+            </div>
+            <div class="align-self-stretch align-items-center exitIcon">
+                <a href="../login.html"><i class="fa fa-sign-out-alt"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="stage">
+
+        <div class="main--content">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"> الرئيسية </a></li>
+                    <li class="breadcrumb-item"><a href="#"> تحليل عرض القوى العاملة </a></li>
+                    <li class="breadcrumb-item active" aria-current="page">  البيانات الحالية  </li>
+                </ol>
+            </nav>
+            <div class="org--display">
+           
+                <div>
+                    <h4>رقم الخطة</h4>
+                    <h5>2021-0001</h5>
+                </div>
+                <div>
+                    <h4>بداية التخطيط</h4>
+                    <h5>2021</h5>
+                </div>
+                <div>
+                    <h4>فترة التخطيط</h4>
+                    <h5>3</h5>
+                </div>
+                <button class="btn btn-primary">
+                    <i class="icon-location" data-toggle="modal" data-target="#commonSelect"></i>
+                </button>
+            </div>
+          
+            <div class="row content--menu">
+                <div class="col-lg-2 menu-nav">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="analysis-offer.html">
+                                    <i class="icon-recruitment"></i>
+                                    <label>عرض القوى العاملة</label>
+                                </a>
+
+                            </li>
+                            <li class="activeMenu">
+                                <a href="analysis-offer-current.html">
+                                <i class="icon-briefing"></i>
+                                <label>البيانات الحالية</label>
+                                </a>
+                            </li>
+                            <li >
+                                <a href="analysis-offer-change-year.html">
+                                <i class="icon-service-review"></i>
+                                <label>تغير السنة الحالية</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="analysis-offer-change-offer.html">
+                                    <i class="icon-manager"></i>
+                                    <label>تغير عرض القوى العاملة</label>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="report-analysis-offer.html">
+                                    <i class="icon-electronics"></i>
+                                    <label>تقارير عرض القوى العاملة</label>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            
+            <div class="col-lg-10 menu-main">
+                <div class="container">
+                    <h3 class="bodyTitle">
+                        البيانات الحالية
+                    </h3>
+                    <div class="row">
+                        <div class="col-12 data_tables_holders">
+                            <table id="analysis-demand_tbl" class="display grid_tables" data-responsive="false" style="width:100%"
+                            data-length="5" data-custom-filter="false" 
+                            data-filter-options="['معلق', 'مقبول','مرفوض', 'الكل']"  data-select="false" data-to-expand="ADT_current">
+                                <thead>
+                                <tr>
+                                    <th style="width: 20px!important;">&nbsp;</th>
+                                    <th style="width: 14%;">الوحدة الإدارية</th>
+                                    <th>نوع الوحدة</th>
+                                    <th style="width: 13%;">الوظيفة</th>
+                                    <th>عدد الوظائف </th>
+                                    <th>عدد الموظفين الحالي</th>
+                                    <th>الترقية</th>
+                                    <th>التقاعد</th>
+                                    <th>الدوران الوظيفي </th>
+                                    <th>التعيين</th>
+                                    <th>النقل</th>
+                                    <th>عدد الموظفين النهائي</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td style="width: 20px!important;">
+                                        <button class="tbl_expand_btn btn btn-primary">expand</button>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex">
+                                            <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                                <i class="icon-flow-chart  icon-rotate-90 color-green font-size4"></i>
+                                            </button>
+                                            <input type="text" disabled value="الشؤون التنفيذية">
+
+                                        </div>
+                                    </td>
+                                    <td><input type="text" disabled value="وكالة"></td>
+                                    <td> <input type="text" disabled value="أخصائي موارد بشرية"></td>
+                                    <td><input type="text" disabled value="5"></td>
+                                    <td><input type="text" disabled value="3"></td>
+                                    <td><input type="text"  disabled value="+1" class="color-green" ></td>
+                                    <td><input type="text" value="-2" class="color-red" disabled></td>
+                                    <td><input type="text" value="-2" class="color-red" disabled></td>
+                                    <td><input type="text" value="+2" class="color-green" disabled></td>
+                                    <td><input type="text" value="0" class="color-green" disabled></td>
+                                    <td><input type="text" value="3"  disabled></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="tbl_expand_btn btn btn-primary">expand</button>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex">
+                                            <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                                <i class="icon-flow-chart  icon-rotate-90 color-green font-size4"></i>
+                                            </button>
+                                            <input type="text" disabled value="إدارة رأس المال البشري">
+
+                                        </div>
+                                    </td>
+                                    <td><input type="text" disabled value="وكالة"></td>
+                                    <td> <input type="text" disabled value="أخصائي موارد بشرية"></td>
+                                    <td><input type="text" disabled value="5"></td>
+                                    <td><input type="text" disabled value="4"></td>
+                                    <td><input type="text" value="+2"  disabled class="color-green"></td>
+                                    <td><input type="text" value="-2" class="color-red" disabled></td>
+                                    <td><input type="text" value="-2" class="color-red" disabled></td>
+                                    <td><input type="text" value="+2" class="color-green" disabled></td>
+                                    <td><input type="text" value="+1" class="color-green" disabled></td>
+                                    <td><input type="text" value="5"  disabled></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="tbl_expand_btn btn btn-primary">expand</button>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex">
+                                            <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                                <i class="icon-flow-chart  icon-rotate-90 color-green font-size4"></i>
+                                            </button>
+                                            <input type="text" disabled>
+
+                                        </div>
+                                    </td>
+                                    <td><input type="text" disabled></td>
+                                    <td> <input type="text" disabled></td>
+                                    <td><input type="text" disabled></td>
+                                    <td><input type="text" disabled></td>
+                                    <td><input type="text" value="" class="main_value" disabled></td>
+                                    <td><input type="text" value="" class="color-green" disabled></td>
+                                    <td><input type="text" value="" class="color-red" disabled></td>
+                                    <td><input type="text" value="" class="color-red" disabled></td>
+                                    <td><input type="text" value="" class="color-green" disabled></td>
+                                    <td><input type="text" value="" class="main_value" disabled></td>
+                                </tr>
+
+                                </tbody>
+                                <tfooter>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><h6>الإجمالي</h6></td>
+                                        <td><h6>الإجمالي</h6></td>
+                                        <td><h6>الإجمالي</h6></td>
+                                        <td><h6>الإجمالي</h6></td>
+                                        <td><h6>الإجمالي</h6></td>
+                                        <td><h6>الإجمالي</h6></td>
+                                        <td><h6>الإجمالي</h6></td>
+                                        <td></td>
+                                    </tr>
+                                </tfooter>
+
+                            </table>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+    <!-- end::Global Config -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">تفاصيل الهيكل الإداري </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+               
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Modal -->
+    <div class="modal fade" id="commonSelect" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">إختيار الخطة</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table id="example" class="display grid_tables" style="width:100%"
+                    data-length="5" data-custom-filter="false" data-filter-options="['معلق', 'مقبول','مرفوض', 'الكل']"   >
+                        <thead>
+                        <tr>
+                            <th style="width: 20px!important;">إختيار</th>
+                            <th>رقم  الخطة</th>
+                            <th>وصف الخطة</th>
+                            <th>بداية التخطيط</th>
+                            <th>فترة التخطيط</th>
+                            <th>تصنيف الخطة </th>
+                            <th>حالة الخطة</th>
+                            
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked" checked>
+                                        <label class="custom-control-label" for="defaultUnchecked"></label>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="2021-0001"></td>
+                                <td><input disabled type="text"></td>
+                                <td><input type="text" disabled value="2021"></td>
+                                <td><input type="text" disabled value="٣"></td>
+                                <td><input type="text" disabled value="أساسية"></td>
+                                <td><input type="text" disabled value="مبدئية"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                        <label class="custom-control-label" for="defaultUnchecked"></label>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="2021-0002"></td>
+                                <td><input disabled type="text"></td>
+                                <td><input type="text" disabled value="2021"></td>
+                                <td><input type="text" disabled value="٣"></td>
+                                <td><input type="text" disabled value="ثانوية"></td>
+                                <td><input type="text" disabled value="مبدئية"></td>
+                            </tr><tr>
+                                <td>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                        <label class="custom-control-label" for="defaultUnchecked"></label>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="2021-000٣"></td>
+                                <td><input disabled type="text"></td>
+                                <td><input type="text" disabled value="2021"></td>
+                                <td><input type="text" disabled value="٣"></td>
+                                <td><input type="text" disabled value="ثانوية"></td>
+                                <td><input type="text" disabled value="مبدئية"></td>
+                            </tr>
+               
+                        </tbody>
+    
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">إلغاء</button>
+                    <button type="button" class="btn btn-primary">إختيار </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--begin::Global Theme Bundle(used by all pages) -->
+    <script src="../../js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../../js/jquery.dataTables.min.js"></script>
+    <script src="../../js/dataTables.responsive.min.js"></script>
+    <script src="../../js/dataTables.buttons.min.js"></script>
+    <script src="../../js/buttons.colVis.min.js"></script>
+    <script src="../../js/dataTables.select.min.js"></script>
+    <script src="../../js/popover.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/functions.js"></script>
+    <script src="../../js/analysis-demand-Vars.js"></script>
+
+</body>
+</html>

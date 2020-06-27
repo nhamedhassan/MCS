@@ -1,0 +1,392 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" name="viewport">
+
+        <!--begin::Fonts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
+
+        <!-- Bootstrap CSS -->
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+
+        <!-- AwsomeFont CSS -->
+        <link href="../../css/all.css" rel="stylesheet">
+
+        <!--Custom CSS -->
+        <link href="../../css/custom.css" rel="stylesheet">
+        <link href="../../css/jquery.dataTables.css" rel="stylesheet">
+        <link href="../../css/datatables.css" rel="stylesheet">
+
+     
+    </head>
+
+<body>
+
+<div class="wrapper">
+    <header class="justify-content-between">
+        <div class="mol_logo">
+			<button class="toggleMenu hamburger hamburger-squeeze mr-2" type="button" data-toggle="aside-menu" aria-label="toggle aside menu"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+            
+            <img alt="" src="../../images/logo-w-w.png"/>
+           
+        </div>
+        <div class="align-self-stretch align-items-center infoIcon" >
+			<div><a href="#"><i class="far fa-question-circle"></a></i></div>
+        </div>
+		 <div class="align-self-stretch  align-items-center infoIcon" >
+            <div><a href="../home.html"><i class="fa fa-home"></i></a></div>
+        </div>
+    </header>
+    
+    <div class="stage">
+
+        <div class="drawer opened">
+
+            <div class="userBlock align-items-center">
+                <div class="userPic"><img src="../../images/userPic.png" width="107" height="107" alt="" /></div>
+                <div class="userInfo">Username: Mohammed Mohammed Ali</div>
+                <div class="d-flex justify-content-center mb-3 mt-3"><a href="../login.html" class="btn btn-primary btn-exit">خروج</a></div>
+
+            </div>
+
+                <!--Accordion wrapper-->
+                <nav class="main-nav accordion" id="mainMenu">
+                    <div class="menu-item">
+                        <a aria-controls="portalsSubMenu" aria-expanded="false" data-target="#setting"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-settings menu-item-icon"></i> إعدادات الخدمة
+                            <i class="fas fa-angle-down arrowIcon"></i></a>
+                        <div class="collapse" id="setting">
+                            <nav>
+                                <a class="" href="../Services-settings/services-list.html">قوائم الخدمة</a>
+                                
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#servicesList"
+                            data-toggle="collapse" class="collapsed" href="#">
+                            <i class="icon-service-setup menu-item-icon"></i>
+                            تهيئة الخدمة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                                <div class="collapse" id="servicesList">
+                                    <nav>
+                                        <a class="" href="../Services-config/services-variables.html">متغيرات تهيئة الخدمة</a>
+                                        <a class="" href="../Services-config/master-time.html">وقت اتقان الوظائف </a>
+                                        <a class="" href="../Services-config/Priority-gaps.html">أولوية معالجة الفجوات </a>
+                                        <a class="" href="../Services-config/job-process-library.html">مكتبة عمليات الوظائف </a>
+                                        <a class="" href="../Services-config/Productivity-Indicators-Library.html">مكتبة مؤشرات الإنتاجية </a>
+                                        <a class="" href="../Services-config/comparison-Library.html">مؤشرات المقارنة المعيارية  </a>
+
+                                    </nav>
+                                </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <a aria-controls="portalsSubMenu" aria-expanded="false" data-target="#info"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-settings menu-item-icon"></i> بيانات النظام المركزي 
+                            <i class="fas fa-angle-down arrowIcon"></i></a>
+                        <div class="collapse" id="info">
+                            <nav>
+                                <a class="" href="../Central-system-data/admin-structure.html">الهيكل الإداري</a>
+                                <a class="" href="../Central-system-data/job-structure.html">هيكل الوظائف </a>
+                                <a class="" href="../Central-system-data/jobs.html">الوظائف</a>
+                                <a class="" href="../Central-system-data/employees.html">الموظفين</a>
+                                <a class="" href="../Central-system-data/jobs-category.html">فئات الوظائف</a>
+                                <a class="" href="../Central-system-data/jobs-names.html">مسميات الوظائف</a>
+                            </nav>
+                        </div>
+                    </div>
+               
+
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#workforce-plans"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-brain menu-item-icon"></i>
+                            خطط القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="workforce-plans">
+                            <nav>
+                                <a href="../Workforce-plans/manag-workforce-plans.html"> إدارة خطط القوى العاملة </a>
+                                <a href="../Workforce-plans/workforce-plans.html">خطط القوى العاملة</a>
+                                <a href="../Workforce-plans/review-workforce-plan.html">مراجعة خطط القوى العاملة </a>
+                                <a href="../Workforce-plans/accept-workforce-plan.html">اعتماد خطط القوى العاملة</a>
+
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#input-admin-structure"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-status menu-item-icon"></i>
+                            مدخلات تخطيط القوى العاملة   
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="input-admin-structure">
+                            <nav>
+                                <a href="../Inputs-workforce-plans/input-workforce-plans.html">  مدخلات تخطيط القوى العاملة   </a>
+                                
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="menu-item hidden">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#input-admin-structure22"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-status menu-item-icon"></i>
+                            عملية تخطيط القوى العاملة   
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="input-admin-structure22">
+                            <nav>
+                                <a href="../Management-workforce-plans/Analysis-offering-workforce-plans/analysis-offer.html">   تحليل عرض القوى العاملة </a>
+                                <a href="../Management-workforce-plans/Analysis-demand-workforce-plans/analysis-demand.html">  تحليل طلب القوى العاملة </a>
+                                <a href="../Management-workforce-plans/reviwe-workforce-demand.html">مراجعة طلب القوى العاملة </a>
+                                <a href="../Management-workforce-plans/accept-workforce-demand.html">إعتماد طلب القوى العاملة </a>
+                                <a href="../Management-workforce-plans/Analysis-workforce-gabs/analysis-gabs.html"> تحليل فجوات القوى العاملة </a>
+                                <a href="../Management-workforce-plans/priority-fix-gabs.html"> أولوية معالجة الفجوات </a>
+                                
+                                
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#Connecting-MOFسس"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-budget menu-item-icon"></i>
+                            مخرجات تخطيط القوى العاملة 
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="Connecting-MOFسس">
+                            <nav>
+                                <a href="../Output-workforce-plans/process-fix-gab.html">إجراءات فجوات القوى العاملة</a>
+
+
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#Connecting-MOFqa"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-budget menu-item-icon"></i>
+                            تقارير تخطيط القوى العاملة 
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="Connecting-MOFqa">
+                            <nav>
+                                <a href="../Reports/report-analysis-offer.html">تقارير عرض القوى العاملة</a>
+                                <a href="../Reports/report-analysis-demand.html">تقارير طلب القوى العاملة</a>
+                                <a href="../Reports/report-gabs.html">تقارير فجوات القوى العاملة</a>
+
+                            </nav>
+                        </div>
+                    </div>
+
+
+                 
+    
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#follow-workforce-plan"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-followup menu-item-icon"></i>
+                            متابعة خطط القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="follow-workforce-plan">
+                            <nav>
+                                <a href="../Follow-workforce-plans/follow-workforce-plan.html">متابعة خطط القوى العاملة</a>
+                                <a href="../Follow-workforce-plans/job-process-library.html">مكتبة عمليات الوظائف</a>
+                                <a href="../Follow-workforce-plans/Productivity-Indicators-Library.html">مكتبة مؤشرات الإنتاجية</a>
+                                <a href="../Follow-workforce-plans/comparison-library.html">مؤشرات المقارنة المعيارية </a>
+                                
+                                
+                            </nav>
+                        </div>
+                    </div>
+
+
+                </nav>
+                <!--/.Accordion wrapper-->
+
+
+        </div>
+
+        <div class="main--content">
+     
+            <div class="col">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="bodyTitle">
+                        فئات الوظائف
+                    </h3>
+                    <div class="row">
+                        <div class="col-12 data_tables_holders">
+                          
+                            <div class="table_btns">
+                               
+                                <button class="btn btn-primary add-row"><i class="fa fa-sync"></i>تحديث </button>
+                          
+                                <div class="updatwView">آخر تحديث<span>20-12-12 12:00 PM</span></div>
+                            </div>
+                        
+                            <table id="example" class="display grid_tables" style="width:100%"
+                            data-length="5" data-custom-filter="false" data-filter-options="['معلق', 'مقبول','مرفوض', 'الكل']"   >
+                                <thead>
+                                <tr>
+                                    
+                                    <th>  المجموعة العامة  </th>
+                                    <th> المجموعة النوعية</th>
+                                    <th>سلسلة الفئات  </th>
+                                    <th> الرمز التصنيفي</th>
+                                    <th>  مسمى الفئة</th>
+                                    <th> المرتبة</th>
+                                 
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                 
+                                    <td><input type="text" disabled value="الوظائف الادارية المعاونة"></td>
+                                    <td> <input type="text" disabled value="وظائف الخدمات الادارية المتنوعة"></td>
+                                    <td><input type="text" disabled value="وظائف الخدمات الإدارية المساعدة"></td>
+                                    <td><input type="text" disabled value="4000806"></td>
+                                    <td><input type="text" disabled value="مساعد إداري"></td>
+                                    <td> <input type="text" disabled value="6"></td>
+                                    
+                                   
+                                </tr>
+                              
+                                <tr>
+                                 
+                                    <td><input type="text" disabled value="الوظائف الادارية المعاونة"></td>
+                                    <td> <input type="text" disabled value="وظائف الخدمات الادارية المتنوعة"></td>
+                                    <td><input type="text" disabled value="وظائف الخدمات الإدارية المساعدة"></td>
+                                    <td><input type="text" disabled value="4000807"></td>
+                                    <td><input type="text" disabled value="مساعد إداري"></td>
+                                    <td> <input type="text" disabled value="7"></td>
+                                    
+                                   
+                                </tr>
+                         
+                                
+                                </tbody>
+
+                            </table>
+
+                        </div>
+                    </div>
+
+                 
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+    <!-- end::Global Config -->
+    <!-- Modal -->
+    <div class="modal fade" id="commonSelect" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">إختيار الخطة</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table id="example" class="display grid_tables" style="width:100%"
+                    data-length="5" data-custom-filter="false" data-filter-options="['معلق', 'مقبول','مرفوض', 'الكل']"   >
+                        <thead>
+                        <tr>
+                            <th style="width: 20px!important;">إختيار</th>
+                            <th>رقم  الخطة</th>
+                            <th>وصف الخطة</th>
+                            <th>بداية التخطيط</th>
+                            <th>فترة التخطيط</th>
+                            <th>تصنيف الخطة </th>
+                            <th>حالة الخطة</th>
+                            
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked" checked>
+                                        <label class="custom-control-label" for="defaultUnchecked"></label>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="2021-0001"></td>
+                                <td><input disabled type="text"></td>
+                                <td><input type="text" disabled value="2021"></td>
+                                <td><input type="text" disabled value="٣"></td>
+                                <td><input type="text" disabled value="أساسية"></td>
+                                <td><input type="text" disabled value="مبدئية"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                        <label class="custom-control-label" for="defaultUnchecked"></label>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="2021-0002"></td>
+                                <td><input disabled type="text"></td>
+                                <td><input type="text" disabled value="2021"></td>
+                                <td><input type="text" disabled value="٣"></td>
+                                <td><input type="text" disabled value="ثانوية"></td>
+                                <td><input type="text" disabled value="مبدئية"></td>
+                            </tr><tr>
+                                <td>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                        <label class="custom-control-label" for="defaultUnchecked"></label>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="2021-000٣"></td>
+                                <td><input disabled type="text"></td>
+                                <td><input type="text" disabled value="2021"></td>
+                                <td><input type="text" disabled value="٣"></td>
+                                <td><input type="text" disabled value="ثانوية"></td>
+                                <td><input type="text" disabled value="مبدئية"></td>
+                            </tr>
+               
+                        </tbody>
+    
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">إلغاء</button>
+                    <button type="button" class="btn btn-primary">إختيار </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--begin::Global Theme Bundle(used by all pages) -->
+    <script src="../../js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../../js/jquery.dataTables.min.js"></script>
+    <script src="../../js/dataTables.responsive.min.js"></script>
+    <script src="../../js/dataTables.buttons.min.js"></script>
+    <script src="../../js/buttons.colVis.min.js"></script>
+    <script src="../../js/dataTables.select.min.js"></script>
+    <script src="../../js/popover.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/functions.js"></script>
+</body>
+</html>

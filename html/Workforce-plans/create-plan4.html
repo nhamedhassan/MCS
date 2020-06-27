@@ -1,0 +1,270 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" name="viewport">
+
+        <!--begin::Fonts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
+
+        <!-- Bootstrap CSS -->
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+
+        <!-- AwsomeFont CSS -->
+        <link href="../../css/all.css" rel="stylesheet">
+
+        <!--Custom CSS -->
+        <link href="../../css/custom.css" rel="stylesheet">
+        <link href="../../css/jquery.dataTables.css" rel="stylesheet">
+        <link href="../../css/datatables.css" rel="stylesheet">
+
+     
+    </head>
+
+<body>
+
+<div class="wrapper">
+    <header class="justify-content-between">
+        <div class="mol_logo">
+			<button class="toggleMenu hamburger hamburger-squeeze mr-2" type="button" data-toggle="aside-menu" aria-label="toggle aside menu"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+            
+            <img alt="" src="../../images/logo-w-w.png"/>
+           
+        </div>
+        <div class="align-self-stretch align-items-center infoIcon" >
+			<div><a href="#"><i class="far fa-question-circle"></a></i></div>
+        </div>
+		 <div class="align-self-stretch  align-items-center infoIcon" >
+            <div><a href="../home.html"><i class="fa fa-home"></i></a></div>
+        </div>
+    </header>
+    <div class="stage">
+
+        <div class="main--content">
+
+            <h3 class="bodyTitle">
+                إنشاء خطة 
+            </h3>
+            <ul class="wizard_stpes">
+                <li class="active">
+                    <span><a href="#"> بيانات الخطة</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="#"> مهام الخطة</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="#"> مستويات الطلب </a></span>
+                </li>
+                <li class="active">
+                    <span><a href="#"> مراجعة واعتماد الطلب  </a></span>
+                </li>
+                <li>
+                    <span><a href="#"> مراجعة الخطة</a></span>
+                </li>
+            </ul>
+        </div>
+            <div class="col">
+            
+            <div class="row ">
+             
+            
+            <div class="col-lg-12 ">
+                   
+                <h4 class="bodyTitle">
+                    مختصي المراجعة و الإعتماد 
+                </h4>
+                <div class="row">
+                    <div class="col-12">
+                        <table id="example" class="display grid_tables" style="width:100%"
+                        data-length="5" data-custom-filter="false" data-filter-options="['معلق', 'مقبول','مرفوض', 'الكل']"   >
+                            <thead>
+                            <tr>
+                                
+                                <th>وحدة التخطيط</th>
+                                <th>نوع الوحدة </th>
+                                <th>  مختص إعداد الطلب </th>
+                                <th>* مختص مراجعة الطلب  </th>
+                                <th> المستخدم</th>
+                                <th>* مختص اعتماد الطلب  </th>
+                                <th> المستخدم</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                             
+                                <td><input type="text" disabled value="التحول الرقمي"></td>
+                                <td> <input type="text" disabled value="وكالة"></td>
+                                <td><input type="text" disabled value="محمد المخلفي"></td>
+                                <td>
+                                    <div class="d-flex">
+                                        <input type="text" value="محمد المخلفي">
+                                        <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="fas icon-location color-green font-size4"></i>
+                                    </button>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="MUKHALAFI"></td>
+                                <td>
+                                    <div class="d-flex">
+                                        <input type="text" value="فيصل باخشوين">
+                                        <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="fas icon-location color-green font-size4"></i>
+                                    </button>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="BAKHSHEWIN"></td>
+                            </tr>
+                            <tr>
+                             
+                                <td><input type="text" disabled value="إدارة رأس المال البشري"></td>
+                                <td> <input type="text" disabled value="وكالة"></td>
+                                <td><input type="text" disabled value="   فيصل باحشوان"></td>
+                                <td>
+                                    <div class="d-flex">
+                                        <input type="text" value=" فهد القنيبط">
+                                        <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="fas icon-location color-green font-size4"></i>
+                                    </button>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="FAHD"></td>
+                                <td>
+                                    <div class="d-flex">
+                                        <input type="text" value=" ماجد بن بتال">
+                                        <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="fas icon-location color-green font-size4"></i>
+                                    </button>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="MAJED"></td>
+                            </tr>
+                            <tr>
+                             
+                                <td><input type="text" disabled value="الشؤون التنفيذية   "></td>
+                                <td> <input type="text" disabled value="وكالة"></td>
+                                <td><input type="text" disabled value="بندر الفريج "></td>
+                                <td>
+                                    <div class="d-flex">
+                                        <input type="text" value="   بندر الفريج ">
+                                        <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="fas icon-location color-green font-size4"></i>
+                                    </button>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="BANDAR"></td>
+                                <td>
+                                    <div class="d-flex">
+                                        <input type="text" value=" عماد اللحيدان">
+                                        <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">
+                                        <i class="fas icon-location color-green font-size4"></i>
+                                    </button>
+                                    </div>
+                                </td>
+                                <td><input type="text" disabled value="EMAD"></td>
+                            </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+                    <div class="col-12 formBtns">	
+                       
+                        <a class="btn btn-primary" href="create-plan3.html">
+                            <i class="fas fa-arrow-right"></i>
+                            السابق
+                        </a>
+                        <a class="btn btn-primary" href="create-plan5.html">
+                            <i class="fas fa-arrow-left"></i>
+                            حفظ
+                        </a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+    <!-- end::Global Config -->
+    	        		<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> اختيار الموظف</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <table id="selectـgoverning" class="display grid_tables" style="width:100%"
+            data-length="5" data-custom-filter="false" data-filter-options="['معلق', 'مقبول','مرفوض', 'الكل']" >
+                <thead>
+                <tr>
+                    <th>إختيار</th>
+                    <th>رقم الهوية</th>
+                    <th> اسم الموظف</th>
+                    <th style="width: 50%!important;">الوظيفة</th>
+                    <th> اسم المستخدم</th>  
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                            <label class="custom-control-label" for="defaultUnchecked"></label>
+                        </div>
+                    </td>
+                    <td> <input type="text" disabled value="233121212"></td>
+                    <td><input type="text" disabled value="فهد القنيبط"></td>
+                    <td><input type="text" disabled value="مدير تخطيط القوى العاملة"></td>
+                    <td><input type="text" disabled value="Fahd"></td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                            <label class="custom-control-label" for="defaultUnchecked"></label>
+                        </div>
+                    </td>
+                    <td> <input type="text" disabled value="12332333"></td>
+                    <td><input type="text" disabled value="ماجد بن بتال"></td>
+                    <td><input type="text" disabled value="وكيل تطوير رأس المال البشري"></td>
+                    <td><input type="text" disabled value="Maged"></td>
+                    
+                </tr>
+       
+                </tbody>
+
+            </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+          <button type="button" class="btn btn-primary">اختيار</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--begin::Global Theme Bundle(used by all pages) -->
+    <script src="../../js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../../js/jquery.dataTables.min.js"></script>
+    <script src="../../js/dataTables.responsive.min.js"></script>
+    <script src="../../js/dataTables.buttons.min.js"></script>
+    <script src="../../js/buttons.colVis.min.js"></script>
+    <script src="../../js/dataTables.select.min.js"></script>
+    <script src="../../js/popover.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/functions.js"></script>
+
+
+</body>
+</html>

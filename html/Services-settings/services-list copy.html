@@ -1,0 +1,490 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" name="viewport">
+
+        <!--begin::Fonts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
+
+        <!-- Bootstrap CSS -->
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+
+        <!-- AwsomeFont CSS -->
+        <link href="../../css/all.css" rel="stylesheet">
+
+        <!--Custom CSS -->
+        <link href="../../css/custom.css" rel="stylesheet">
+        <link href="../../css/jquery.dataTables.css" rel="stylesheet">
+        <link href="../../css/datatables.css" rel="stylesheet">
+
+       <style>
+           .row{
+               border: 0px solid red;
+           }
+       </style>
+    </head>
+
+<body>
+
+<div class="wrapper">
+    <header class="justify-content-between">
+        <div class="mol_logo">
+			<button class="toggleMenu hamburger hamburger-squeeze mr-2" type="button" data-toggle="aside-menu" aria-label="toggle aside menu"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+            
+            <img alt="" src="../../images/logo-w-w.png"/>
+           
+        </div>
+        <div class="align-self-stretch align-items-center infoIcon" >
+			<div><a href="#"><i class="far fa-question-circle"></a></i></div>
+        </div>
+		 <div class="align-self-stretch  align-items-center exitIcon" >
+            <div><a href="#"><i class="fa fa-sign-out-alt"></i></a></div>
+        </div>
+    </header>
+    <div class="stage">
+
+        <div class="drawer opened">
+
+            <div class="userBlock align-items-center">
+                <div class="userPic"><img src="../../images/userPic.png" width="107" height="107" alt="" /></div>
+                <div class="userInfo">Username: Mohammed Ahmed Ali</div>
+                <div class="d-flex justify-content-center mb-3 mt-3"><button class="btn btn-primary btn-exit">خروج</button></div>
+
+            </div>
+
+                <!--Accordion wrapper-->
+                <nav class="main-nav accordion" id="mainMenu">
+                    <div class="menu-item">
+                        <a aria-controls="portalsSubMenu" aria-expanded="true" data-target="#setting"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-settings menu-item-icon"></i> إعدادات الخدمة
+                            <i class="fas fa-angle-down arrowIcon"></i></a>
+                        <div class="collapse" id="setting">
+                            <nav>
+                                <a class="" href="dashboard.html">قوائم الخدمة</a>
+                                
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#servicesList"
+                            data-toggle="collapse" class="collapsed" href="#">
+                            <i class="icon-service-setup menu-item-icon"></i>
+                            تهيئة الخدمة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                                <div class="collapse" id="servicesList">
+                                    <nav>
+                                        <a href="#">متغيرات تهيئة الخدمة</a>
+                                        <a class="" href="#">وقت اتقان الوظائف </a>
+                                        <a class="" href="#">أولوية معالجة الفجوات </a>
+                                        <a class="" href="#">مكتبة عمليات الوظائف </a>
+                                        <a class="" href="#">مكتبة مؤشرات الإنتاجية </a>
+                                        <a class="" href="#">مؤشرات المقارنة المعيارية  </a>
+
+                                    </nav>
+                                </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <a aria-controls="portalsSubMenu" aria-expanded="true" data-target="#info"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-settings menu-item-icon"></i> بيانات النظام المركزي 
+                            <i class="fas fa-angle-down arrowIcon"></i></a>
+                        <div class="collapse" id="info">
+                            <nav>
+                                <a class="" href="#">الهيكل الإداري</a>
+                                <a href="dashboard.html">هيكل الوظائف </a>
+                                <a class="" href="#">الوظائف</a>
+                                <a class="" href="#">الموظفين</a>
+                                <a href="#">فئات الوظائف</a>
+                                <a href="#">مسميات الوظائف</a>
+
+                                
+                            </nav>
+                        </div>
+                    </div>
+               
+
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#workforce-plans"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-brain menu-item-icon"></i>
+                            خطط القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="workforce-plans">
+                            <nav>
+                               
+                                <a href="dashboard.html"> إدارة خطط القوى العاملة </a>
+                                <a href="dashboard.html">خطط القوى العاملة</a>
+
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#input-admin-structure"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-status menu-item-icon"></i>
+                            مدخلات تخطيط القوى العاملة   
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="input-admin-structure">
+                            <nav>
+                                <a href=""> الهيكل الإداري</a>
+                                <a class="" href="#">هيكل الوظائف</a>
+                                <a href="#">الوظائف</a>
+                                <a href="#">الموظفين</a>
+                                
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#analysis-offer"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-presentation menu-item-icon"></i>
+                            تحليل عرض القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="analysis-offer">
+                            <nav>
+                                    <a href="">عرض القوى العاملة </a>
+                                    <a href="">البيانات الحالية </a>
+                                    <a href="">تغير السنة الحالية </a>
+                                    <a href="">تغير عرض القوى العاملة </a>
+                                    <a href="">تقارير عرض القوى العاملة</a>
+
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#analysis-demand"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-analysis menu-item-icon"></i>
+                           تحليل طلب القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="analysis-demand">
+                            <nav>
+                                <a href="">طلب القوى العاملة </a>
+                                <a href="">تغير طلب القوى العاملة </a>
+                                <a href="">تقارير طلب القوى العاملة  </a>
+                             
+
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#reviwe-workforce-demand"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-review menu-item-icon"></i>
+                            مراجعة واعتماد طلب القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="reviwe-workforce-demand">
+                            <nav>
+                                <a href="">مراجعة طلب القوى العاملة </a>
+                                <a href="">إعتماد طلب القوى العاملة </a>
+                              
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#analysis-gabs"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-idea menu-item-icon"></i>
+                           تحليل فجوات القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="analysis-gabs">
+                            <nav>
+                                <a href="">فجوات القوى العاملة </a>
+                                <a href="">معالجة فجوات القوى العاملة</a>
+                                <a href="">إجراءات فجوات القوى العاملة</a>
+                                <a href="">أولوية معالجة الفجوات </a>
+                                <a href="">تقارير فجوات القوى العاملة </a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#review-workforce-plan"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-planning menu-item-icon"></i>
+                           مراجعة واعتماد خطط القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="review-workforce-plan">
+                            <nav>
+                                <a href="">مراجعة خطط القوى العاملة </a>
+                                <a href="">اعتماد خطط القوى العاملة</a>
+                                
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#Connecting-MOF"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-budget menu-item-icon"></i>
+                           الربط مع وزارة المالية
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="Connecting-MOF">
+                            <nav>
+                                <a href="">الربط مع وزارة المالية</a>
+
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#review-Connecting-MOF"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-invoice menu-item-icon"></i>
+                            مراجعة واعتماد وزارة المالية
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="review-Connecting-MOF">
+                            <nav>
+                                <a href="">مراجعة واعتماد وزارة المالية</a>
+
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a aria-controls="usersSubMenu" aria-expanded="false" data-target="#follow-workforce-plan"
+                            data-toggle="collapse" href="#" class="collapsed">
+                            <i class="icon-service-followup menu-item-icon"></i>
+                            متابعة خطط القوى العاملة
+                            <i class="fas fa-angle-down arrowIcon"></i>
+                        </a>
+                        <div class="collapse" id="follow-workforce-plan">
+                            <nav>
+                                <a href="">متابعة خطط القوى العاملة</a>
+                                <a href="">مكتبة عمليات الوظائف</a>
+                                <a href="">مكتبة مؤشرات الإنتاجية</a>
+                                <a href="">مؤشرات المقارنة المعيارية </a>
+                                
+                            </nav>
+                        </div>
+                    </div>
+
+
+                </nav>
+                <!--/.Accordion wrapper-->
+
+
+        </div>
+
+        <div class="main--content">
+           
+          
+            <div class="col">
+              
+            
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="bodyTitle">
+                        قوائم الخدمة
+                    </h3>
+                    <div class="row">
+                        <div class="col-12 data_tables_holders">
+                            <div class="table_btns">
+                                <a class="btn btn-primary" href="#">
+                                    <i class="fas fa-outdent"></i>
+                                    اضافة
+                                </a>
+                            </div>
+                            <table id="example" class="display grid_tables fixSelectStyle" style="width:100%"
+                            data-length="5" data-custom-filter="false" data-filter-options="['معلق', 'مقبول','مرفوض', 'الكل']"   >
+                                <thead>
+                                <tr>
+                                    <th style="width: 20px!important;">إختيار</th>
+                                    <th>* الرمز</th>
+                                    <th>* الاسم</th>
+                                    <th style="width: 35%;">* الوصف</th>
+                                    <th style="width: 15%;">* نوع القائمة</th>
+                                    <th>&nbsp;</th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked"></label>
+                                        </div>
+                                    </td>
+                                    <td><input type="text" value="SWP_DEMAND_STATUS" disabled></td>
+                                    <td> <input type="text" disabled value="حالة طلب القوى العاملة"></td>
+                                    <td><input type="text" disabled value="تحديد حالة طلب القوى العاملة أثناء تحليل طلب القوى العاملة"></td>
+                                    <td><select disabled>
+                                        <option>استخدام النظام</option>
+                                        <option>قابلة للتعديل</option>
+                                    </select></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave"><i class="far icon-save-checked" aria-hidden="true"></i></button>
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                        
+                                <tr>
+                                    <td></td>
+                                    <td><input type="text"></td>
+                                    <td> <input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><select>
+                                        <option>استخدام النظام</option>
+                                        <option selected>قابلة للتعديل</option>
+                                    </select></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave"><i class="far icon-save" aria-hidden="true"></i></button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btnDelete"><i class="fas fa-times" aria-hidden="true"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="text"></td>
+                                    <td> <input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><select>
+                                        <option>استخدام النظام</option>
+                                        <option>قابلة للتعديل</option>
+                                    </select></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave"><i class="far icon-save" aria-hidden="true"></i></button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btnDelete"><i class="fas fa-times" aria-hidden="true"></i></button>
+                                    </td>
+                                </tr>
+                                
+                       
+                                </tbody>
+
+                            </table>
+
+                        </div>
+                    </div>
+
+                    <h3 class="page-title">
+                        تفاصيل قوائم الخدمة 
+                    </h3>
+                    <div class="row">
+                       
+                        <div class="col-12 data_tables_holders">
+                            <div class="table_btns">
+                                <a class="btn btn-primary" href="#">
+                                    <i class="fas fa-outdent"></i>
+                                    اضافة
+                                </a>
+                            </div>
+                            <table id="example-details" class="display grid_tables" style="width:100%"
+                            data-length="5" data-custom-filter="false" data-filter-options="['معلق', 'مقبول','مرفوض', 'الكل']"   >
+                                <thead>
+                                <tr>
+                                    
+                                    <th>* الرمز</th>
+                                    <th>* القيمة</th>
+                                    <th>* تاريخ البداية</th>
+                                    <th> تاريخ النهاية</th>
+                                    <th>&nbsp;</th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                 
+                                    <td><input type="text" value="N" disabled></td>
+                                    <td> <input type="text" value="غير مكتمل" disabled></td>
+                                    <td><input type="date" value="2020-01-01" disabled ></td>
+                                    <td><input type="date" value="" disabled></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave"><i class="far icon-save-checked" aria-hidden="true"></i></button>
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                               
+                                    <td><input type="text" value="C" disabled></td>
+                                    <td> <input type="text" value=" جاهز للمراجعة" disabled></td>
+                                    <td><input type="date" value="2020-01-01" disabled></td>
+                                    <td><input type="date" value="" disabled></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave"><i class="far icon-save-checked" aria-hidden="true"></i></button>
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td><input type="text" value="R"></td>
+                                    <td> <input type="text" value=" تمت المراجعة"></td>
+                                    <td><input type="date" value="2020-01-01"></td>
+                                    <td><input type="date"></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave"><i class="far icon-save" aria-hidden="true"></i></button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btnDelete"><i class="fas fa-times" aria-hidden="true"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td><input type="text" value="A"></td>
+                                    <td> <input type="text" value="معتمد"></td>
+                                    <td><input type="date" value="2020-01-01"></td>
+                                    <td><input type="date"></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave"><i class="far icon-save" aria-hidden="true"></i></button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btnDelete"><i class="fas fa-times" aria-hidden="true"></i></button>
+                                    </td>
+                                </tr>
+                                
+                       
+                                </tbody>
+
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+    <!-- end::Global Config -->
+
+
+    <!--begin::Global Theme Bundle(used by all pages) -->
+    <script src="../../js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../../js/jquery.dataTables.min.js"></script>
+    <script src="../../js/dataTables.responsive.min.js"></script>
+    <script src="../../js/dataTables.buttons.min.js"></script>
+    <script src="../../js/buttons.colVis.min.js"></script>
+    <script src="../../js/dataTables.select.min.js"></script>
+    <script src="../../js/popover.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/functions.js"></script>
+
+</body>
+</html>
