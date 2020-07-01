@@ -302,6 +302,7 @@
                                     <th>عدد الوظائف </th>
                                     <th>عدد الموظفين </th>
                                     <th> حالة الطلب </th>
+                                    <th style="width: 10%;">سجل التتبع</th>
                                     
                                 </tr>
                                 </thead>
@@ -331,6 +332,10 @@
                                     <td><input type="text" disabled value="5"></td>
                                     <td><input type="text" disabled value="3"></td>
                                     <td><input type="text" disabled value="جاهز للمراجعة"></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave" data-toggle="modal" data-target="#workflow_steps">
+                                            <i class="fas fa-cogs"></i></button>    
+                                    </td>
                                  
                                 </tr>
                               
@@ -358,6 +363,10 @@
                                     <td><input type="text" disabled value="5"></td>
                                     <td><input type="text" disabled value="5"></td>
                                     <td><input type="text" disabled value="جاهز للمراجعة"></td>
+                                    <td>
+                                        <button type="button" class="btn btnSave" data-toggle="modal" data-target="#workflow_steps">
+                                            <i class="fas fa-cogs"></i></button>    
+                                    </td>
                                 </tr>
                              
                                 </tbody>
@@ -702,6 +711,26 @@
     </div>
 </div>
 
+ <!-- Modal -->
+ <div class="modal fade" id="workflow_steps" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">  سجل التتبع</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!--begin::Global Theme Bundle(used by all pages) -->
     <script src="../../js/jquery-3.4.1.slim.min.js"></script>

@@ -90,27 +90,27 @@
                                 <li>
 
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"value="1" id="checkbox_hir_1">
+                                        <input type="checkbox" class="custom-control-input" value="1" id="checkbox_hir_1">
                                         <label class="custom-control-label" for="checkbox_hir_1">مكتب الوزير</label>
                                     </div>
                                     <ul>
                                         <li>
 
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input"value="1" id="checkbox_hir_1_1">
+                                                <input type="checkbox" class="custom-control-input" value="1" id="checkbox_hir_1_1">
                                                 <label class="custom-control-label" for="checkbox_hir_1_1">   التحول الرقمي</label>
                                             </div>
                                         </li>
                                         <li>
 
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input"value="1" id="checkbox_hir_1_2">
+                                                <input type="checkbox" class="custom-control-input" value="1" id="checkbox_hir_1_2">
                                                 <label class="custom-control-label" for="checkbox_hir_1_2">  مكتب نائب الوزير</label>
                                             </div>
                                             <ul><li>
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"value="1" id="checkbox_hir_1_2">
-                                                    <label class="custom-control-label" for="checkbox_hir_1_2">   الشؤون التنفيذية </label>
+                                                    <input type="checkbox" class="custom-control-input" value="1" id="checkbox_hir_1_3">
+                                                    <label class="custom-control-label" for="checkbox_hir_1_3">   الشؤون التنفيذية </label>
                                                 </div>
                                             </li></ul>
                                         </li>
@@ -156,7 +156,7 @@
                                 <tr>
                                     <th>الوحدة الإدارية </th>
                                     <th>نوع الوحدة</th>
-                                    <th>الوحدات التابعة</th>
+                                    <th>الوحدات التابعة؟</th>
                                     <th>* مختص إعداد الطلب</th>
                                     <th>اسم المستخدم</th>
                                 </tr>
@@ -266,12 +266,12 @@
 
     <script>
         $(document).ready(function() {
-            var swap_new_row = [' التحول الرقمي',' وكالة','<input type="checkbox">',' <div class="d-flex">\n' +
+            var swap_new_row = [' الشؤون التنفيذية ',' وكالة','<input type="checkbox">',' <div class="d-flex">\n' +
             '                                            <input type="text" disabled value"محمد المخلفي">\n' +
             '                                            <button class="flex-shrink-1 disBtn" data-toggle="modal" data-target="#exampleModal">\n' +
             '                                                <i class="icon-location color-green font-size4"></i>\n' +
             '                                            </button>\n' +
-            '                                        </div>',' <input type="text" disabled value="Mukhalafi">']
+            '                                        </div>',' <input type="text" disabled value="">']
            var swap_tbl =  $('#swap_tbl').DataTable({
                 "info": false,
                 "ordering": false,
